@@ -834,20 +834,21 @@ class VendasPage(PageBase):
 
 class GastosPage(PageBase):
     DEFAULT_DESC = [
-        "CONTADORA",
-        "ALUGUEL",
-        "INTERNET E TELEFONE",
-        "CONTA DE LUZ E CONDOMINIO",
-        "ANÚNCIO / MARKETING",
-        "LIMPEZA",
+        "Contador",
+        "Aluguel",
+        "Internet e Telefone",
+        "Conta de Luz e Condomínio",
+        "Anúncio/Marketing",
+        "Limpeza",
         "Hostinger",
         "Microsoft",
         "Escritório",
         "Conta Vivo",
-        "Salário Hiago",
+        "Salário Iago",
         "Salário Sabrina",
         "Passagem Sabrina",
-        "Supermercados BH",
+        "Compras",
+        "Comissões/Bonificação",
     ]
     SETORES = [
         "Custo Fixo/Aluguel",
@@ -856,6 +857,7 @@ class GastosPage(PageBase):
         "Tráfego Pago/Marketing",
         "Impostos/Taxas",
         "Estrutura/Limpeza",
+        "Contas",
         "Outros",
     ]
 
